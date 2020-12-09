@@ -1,1 +1,0 @@
-C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\SketchViewHoloLens.vcxproj;arm
