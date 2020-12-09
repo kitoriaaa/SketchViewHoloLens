@@ -7155,34 +7155,6 @@ public:
 
 
 // Windows.Foundation.Point
-struct  Point_tEC1815EC53B414E5281C817051DA4F985DB9C8C1 
-{
-public:
-	// System.Single Windows.Foundation.Point::X
-	float ___X_0;
-	// System.Single Windows.Foundation.Point::Y
-	float ___Y_1;
-
-public:
-	inline static int32_t get_offset_of_X_0() { return static_cast<int32_t>(offsetof(Point_tEC1815EC53B414E5281C817051DA4F985DB9C8C1, ___X_0)); }
-	inline float get_X_0() const { return ___X_0; }
-	inline float* get_address_of_X_0() { return &___X_0; }
-	inline void set_X_0(float value)
-	{
-		___X_0 = value;
-	}
-
-	inline static int32_t get_offset_of_Y_1() { return static_cast<int32_t>(offsetof(Point_tEC1815EC53B414E5281C817051DA4F985DB9C8C1, ___Y_1)); }
-	inline float get_Y_1() const { return ___Y_1; }
-	inline float* get_address_of_Y_1() { return &___Y_1; }
-	inline void set_Y_1(float value)
-	{
-		___Y_1 = value;
-	}
-};
-
-
-// Windows.Foundation.Point
 struct  Point_t7C3010F37F6E9DB2B792BBDAFF58C3232A3356AC 
 {
 public:
@@ -7206,6 +7178,34 @@ public:
 	inline void set__y_1(float value)
 	{
 		____y_1 = value;
+	}
+};
+
+
+// Windows.Foundation.Point
+struct  Point_tEC1815EC53B414E5281C817051DA4F985DB9C8C1 
+{
+public:
+	// System.Single Windows.Foundation.Point::X
+	float ___X_0;
+	// System.Single Windows.Foundation.Point::Y
+	float ___Y_1;
+
+public:
+	inline static int32_t get_offset_of_X_0() { return static_cast<int32_t>(offsetof(Point_tEC1815EC53B414E5281C817051DA4F985DB9C8C1, ___X_0)); }
+	inline float get_X_0() const { return ___X_0; }
+	inline float* get_address_of_X_0() { return &___X_0; }
+	inline void set_X_0(float value)
+	{
+		___X_0 = value;
+	}
+
+	inline static int32_t get_offset_of_Y_1() { return static_cast<int32_t>(offsetof(Point_tEC1815EC53B414E5281C817051DA4F985DB9C8C1, ___Y_1)); }
+	inline float get_Y_1() const { return ___Y_1; }
+	inline float* get_address_of_Y_1() { return &___Y_1; }
+	inline void set_Y_1(float value)
+	{
+		___Y_1 = value;
 	}
 };
 
@@ -28464,60 +28464,6 @@ IL_0028:
 	}
 }
 // System.Void System.Array::InternalArray__set_Item<Windows.Foundation.Point>(System.Int32,T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPoint_tEC1815EC53B414E5281C817051DA4F985DB9C8C1_m5403D03C15ECAE0A20AAE6CBB5FC67A945A76CDA_gshared (RuntimeArray * __this, int32_t ___index0, Point_tEC1815EC53B414E5281C817051DA4F985DB9C8C1  ___item1, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Array_InternalArray__set_Item_TisPoint_tEC1815EC53B414E5281C817051DA4F985DB9C8C1_m5403D03C15ECAE0A20AAE6CBB5FC67A945A76CDA_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* V_0 = NULL;
-	{
-		int32_t L_0 = ___index0;
-		NullCheck((RuntimeArray *)__this);
-		int32_t L_1 = Array_get_Length_m2239B6393651C3F4631D900EFC1B05DBE8F5466D((RuntimeArray *)__this, /*hidden argument*/NULL);
-		if ((!(((uint32_t)L_0) >= ((uint32_t)L_1))))
-		{
-			goto IL_0014;
-		}
-	}
-	{
-		ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA * L_2 = (ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA_il2cpp_TypeInfo_var);
-		ArgumentOutOfRangeException__ctor_m6B36E60C989DC798A8B44556DB35960282B133A6(L_2, (String_t*)_stringLiteralE540CDD1328B2B21E29A95405C301B9313B7C346, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, Array_InternalArray__set_Item_TisPoint_tEC1815EC53B414E5281C817051DA4F985DB9C8C1_m5403D03C15ECAE0A20AAE6CBB5FC67A945A76CDA_RuntimeMethod_var);
-	}
-
-IL_0014:
-	{
-		V_0 = (ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)((ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)IsInst((RuntimeObject*)__this, ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A_il2cpp_TypeInfo_var));
-		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_3 = V_0;
-		if (!L_3)
-		{
-			goto IL_0028;
-		}
-	}
-	{
-		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_4 = V_0;
-		int32_t L_5 = ___index0;
-		Point_tEC1815EC53B414E5281C817051DA4F985DB9C8C1  L_6 = ___item1;
-		Point_tEC1815EC53B414E5281C817051DA4F985DB9C8C1  L_7 = L_6;
-		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
-		NullCheck(L_4);
-		ArrayElementTypeCheck (L_4, L_8);
-		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (RuntimeObject *)L_8);
-		return;
-	}
-
-IL_0028:
-	{
-		int32_t L_9 = ___index0;
-		NullCheck((RuntimeArray *)__this);
-		ArraySetGenericValueImpl((RuntimeArray *)__this, (int32_t)L_9, (Point_tEC1815EC53B414E5281C817051DA4F985DB9C8C1 *)(Point_tEC1815EC53B414E5281C817051DA4F985DB9C8C1 *)(&___item1));
-		return;
-	}
-}
-// System.Void System.Array::InternalArray__set_Item<Windows.Foundation.Point>(System.Int32,T)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPoint_t7C3010F37F6E9DB2B792BBDAFF58C3232A3356AC_m90FCAE66322CBF401BBF8E49EDCD946121B0287E_gshared (RuntimeArray * __this, int32_t ___index0, Point_t7C3010F37F6E9DB2B792BBDAFF58C3232A3356AC  ___item1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28568,6 +28514,60 @@ IL_0028:
 		int32_t L_9 = ___index0;
 		NullCheck((RuntimeArray *)__this);
 		ArraySetGenericValueImpl((RuntimeArray *)__this, (int32_t)L_9, (Point_t7C3010F37F6E9DB2B792BBDAFF58C3232A3356AC *)(Point_t7C3010F37F6E9DB2B792BBDAFF58C3232A3356AC *)(&___item1));
+		return;
+	}
+}
+// System.Void System.Array::InternalArray__set_Item<Windows.Foundation.Point>(System.Int32,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_InternalArray__set_Item_TisPoint_tEC1815EC53B414E5281C817051DA4F985DB9C8C1_m5403D03C15ECAE0A20AAE6CBB5FC67A945A76CDA_gshared (RuntimeArray * __this, int32_t ___index0, Point_tEC1815EC53B414E5281C817051DA4F985DB9C8C1  ___item1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Array_InternalArray__set_Item_TisPoint_tEC1815EC53B414E5281C817051DA4F985DB9C8C1_m5403D03C15ECAE0A20AAE6CBB5FC67A945A76CDA_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* V_0 = NULL;
+	{
+		int32_t L_0 = ___index0;
+		NullCheck((RuntimeArray *)__this);
+		int32_t L_1 = Array_get_Length_m2239B6393651C3F4631D900EFC1B05DBE8F5466D((RuntimeArray *)__this, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_0) >= ((uint32_t)L_1))))
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA * L_2 = (ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA *)il2cpp_codegen_object_new(ArgumentOutOfRangeException_t94D19DF918A54511AEDF4784C9A08741BAD1DEDA_il2cpp_TypeInfo_var);
+		ArgumentOutOfRangeException__ctor_m6B36E60C989DC798A8B44556DB35960282B133A6(L_2, (String_t*)_stringLiteralE540CDD1328B2B21E29A95405C301B9313B7C346, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2, Array_InternalArray__set_Item_TisPoint_tEC1815EC53B414E5281C817051DA4F985DB9C8C1_m5403D03C15ECAE0A20AAE6CBB5FC67A945A76CDA_RuntimeMethod_var);
+	}
+
+IL_0014:
+	{
+		V_0 = (ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)((ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A*)IsInst((RuntimeObject*)__this, ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A_il2cpp_TypeInfo_var));
+		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_4 = V_0;
+		int32_t L_5 = ___index0;
+		Point_tEC1815EC53B414E5281C817051DA4F985DB9C8C1  L_6 = ___item1;
+		Point_tEC1815EC53B414E5281C817051DA4F985DB9C8C1  L_7 = L_6;
+		RuntimeObject * L_8 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_7);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_8);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (RuntimeObject *)L_8);
+		return;
+	}
+
+IL_0028:
+	{
+		int32_t L_9 = ___index0;
+		NullCheck((RuntimeArray *)__this);
+		ArraySetGenericValueImpl((RuntimeArray *)__this, (int32_t)L_9, (Point_tEC1815EC53B414E5281C817051DA4F985DB9C8C1 *)(Point_tEC1815EC53B414E5281C817051DA4F985DB9C8C1 *)(&___item1));
 		return;
 	}
 }

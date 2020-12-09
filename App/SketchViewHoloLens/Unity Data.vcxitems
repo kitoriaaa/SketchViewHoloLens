@@ -161,6 +161,10 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Data\StreamingAssets\object">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)AudioPluginMsHRTF.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\AudioPluginMsHRTF.dll')">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>

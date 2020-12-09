@@ -67,6 +67,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\il2cppOutput\Assembly-CSharp_CodeGen.c">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\I18N.CJK_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\I18N.MidEast_CodeGen.c">
@@ -222,6 +224,8 @@
     <ClCompile Include="Source\il2cppOutput\UnityEngine_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\WindowsRuntimeMetadata_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Assembly-CSharp.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods.cpp">
     </ClCompile>

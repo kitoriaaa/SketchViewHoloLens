@@ -66,3 +66,4 @@ C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\build\obj\SketchViewHo
 C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\build\obj\SketchViewHoloLens\ARM\Release\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\build\obj\SketchViewHoloLens\ARM\Release\ProjectArchitectures.txt
 C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\build\obj\SketchViewHoloLens\ARM\Release\.winmd_cache\$UnityPlayer.winmd_637401442740000000.json
+C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\build\bin\ARM\Release\Data\StreamingAssets\object

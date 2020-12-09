@@ -107,6 +107,9 @@
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\StreamingAssets\object">
+      <PackagePath>Data\StreamingAssets\object</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
     </AppxPackagedFile>

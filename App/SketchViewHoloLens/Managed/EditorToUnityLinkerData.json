@@ -316,24 +316,6 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Collider",
-            "fullManagedTypeName": "UnityEngine.Collider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/ObjectViewScene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "BoxCollider",
-            "fullManagedTypeName": "UnityEngine.BoxCollider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/ObjectViewScene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Motion",
             "fullManagedTypeName": "UnityEngine.Motion",
             "moduleName": "Animation",
@@ -484,6 +466,13 @@
             "usedInScenes": [
                 "Assets/Scenes/ObjectViewScene.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "LoadFromFile",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll",

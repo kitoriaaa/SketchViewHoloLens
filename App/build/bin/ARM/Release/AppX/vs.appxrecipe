@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\build\bin\ARM\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>0E5D0FE709A2D6429C6DA5FDBEFD86079A47E8986A7713BB64041E20130398EA</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>CBE0138EC7DD321C1F54F400F0D645E9D5DD9C42D6D1F54427BBE58C41C15D13</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>Template3D_1.0.0.0_arm__pzq3xp76mxafg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>Template3D_pzq3xp76mxafg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>Template3D</RegisteredPackageID>
@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\build\bin\ARM\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-20T05:14:36.730</Modified>
+      <Modified>2020-12-09T08:33:17.732</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\build\bin\ARM\Release\SketchViewHoloLens.exe">
       <PackagePath>SketchViewHoloLens.exe</PackagePath>
-      <Modified>2020-11-20T05:14:35.587</Modified>
+      <Modified>2020-12-09T08:33:16.954</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2019.4.14f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM\Release\UnityPlayer.winmd">
       <PackagePath>UnityPlayer.winmd</PackagePath>
@@ -86,7 +86,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\StoreManifest.xml">
       <PackagePath>StoreManifest.xml</PackagePath>
-      <Modified>2020-11-19T09:27:58.122</Modified>
+      <Modified>2020-12-09T08:31:11.233</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\il2cpp_data\etc\mono\mconfig\config.xml">
       <PackagePath>Data\il2cpp_data\etc\mono\mconfig\config.xml</PackagePath>
@@ -94,7 +94,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2020-11-19T09:27:54.446</Modified>
+      <Modified>2020-12-09T08:31:10.430</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\il2cpp_data\etc\mono\2.0\machine.config">
       <PackagePath>Data\il2cpp_data\etc\mono\2.0\machine.config</PackagePath>
@@ -122,11 +122,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2020-11-19T09:27:49.809</Modified>
+      <Modified>2020-12-09T08:31:01.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2020-11-19T09:27:47.722</Modified>
+      <Modified>2020-12-09T08:30:59.291</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\il2cpp_data\etc\mono\config">
       <PackagePath>Data\il2cpp_data\etc\mono\config</PackagePath>
@@ -138,35 +138,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2020-11-19T09:27:54.440</Modified>
+      <Modified>2020-12-09T08:31:10.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\StreamingAssets\object">
+      <PackagePath>Data\StreamingAssets\object</PackagePath>
+      <Modified>2020-12-09T07:41:14.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2020-11-19T09:27:49.913</Modified>
+      <Modified>2020-12-09T08:31:01.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2020-11-19T09:27:50.082</Modified>
+      <Modified>2020-12-09T08:31:01.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2020-11-19T09:27:52.821</Modified>
+      <Modified>2020-12-09T08:31:07.415</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2020-11-19T09:28:57.419</Modified>
+      <Modified>2020-12-09T08:32:09.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2020-11-19T09:27:50.079</Modified>
+      <Modified>2020-12-09T08:31:01.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2020-11-19T09:27:52.813</Modified>
+      <Modified>2020-12-09T08:31:07.405</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\sharedassets0.resource">
       <PackagePath>Data\sharedassets0.resource</PackagePath>
-      <Modified>2020-11-19T09:27:52.796</Modified>
+      <Modified>2020-12-09T08:31:07.379</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\il2cpp_data\etc\mono\browscap.ini">
       <PackagePath>Data\il2cpp_data\etc\mono\browscap.ini</PackagePath>
@@ -210,15 +214,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\il2cpp_data\Metadata\global-metadata.dat">
       <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
-      <Modified>2020-11-19T09:28:49.347</Modified>
+      <Modified>2020-12-09T08:32:06.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat</PackagePath>
-      <Modified>2020-11-19T09:28:13.484</Modified>
+      <Modified>2020-12-09T08:31:31.474</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
       <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
-      <Modified>2020-11-19T09:28:13.483</Modified>
+      <Modified>2020-12-09T08:31:31.472</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\AudioPluginMsHRTF.dll">
       <PackagePath>AudioPluginMsHRTF.dll</PackagePath>
@@ -226,11 +230,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\build\bin\ARM\Release\GameAssembly.dll">
       <PackagePath>GameAssembly.dll</PackagePath>
-      <Modified>2020-11-20T05:14:31.640</Modified>
+      <Modified>2020-12-09T08:33:13.447</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\build\bin\ARM\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-11-20T05:14:36.251</Modified>
+      <Modified>2020-12-09T08:33:17.532</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
