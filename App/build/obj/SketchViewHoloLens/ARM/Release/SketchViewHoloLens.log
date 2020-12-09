@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  App.cpp
+  Main.cpp
+  UnityGenerated.cpp
+C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\App.cpp(26,1): warning C4973: 'Windows::UI::ViewManagement::IApplicationView2::SuppressSystemOverlays::set': 非推奨として設定されています
+C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\SketchViewHoloLens\App.cpp(26,1): message : メッセージ: 'Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.'
+  コード生成しています。
+  コード生成が終了しました。
+  SketchViewHoloLens.vcxproj -> C:\Users\Kobayashi\Documents\Unity\SketchViewHoloLens\App\build\bin\ARM\Release\SketchViewHoloLens.exe
