@@ -2,11 +2,16 @@
 using System.Collections;
 using System.IO;
 
+
 public class LoadFromFile : MonoBehaviour
 {
     IEnumerator Start()
     {
+#if WINDOWS_UWP	
+        string bundlepath = Path.Combine(Windows.Storage.ApplicationData.Current.LocalFolder.Path, "object");
+#else
         string bundlepath = Path.Combine(Application.streamingAssetsPath, "object");
+#endif
         AssetBundleCreateRequest bundleLoadRequest = AssetBundle.LoadFromFileAsync(bundlepath);
         yield return bundleLoadRequest;
 
