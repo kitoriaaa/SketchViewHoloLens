@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.IO;
-
+using Microsoft.MixedReality.Toolkit.UI.BoundsControl;
+using Microsoft.MixedReality.Toolkit.UI;
 
 public class LoadFromFile : MonoBehaviour
 {
@@ -28,7 +29,9 @@ public class LoadFromFile : MonoBehaviour
         GameObject prefab = assetLoadRequest.asset as GameObject;
 
         // Add componet test move script
-        prefab.AddComponent<MoveScript>();
+        prefab.AddComponent<BoundsControl>();
+        prefab.AddComponent<ManipulationHandler>();
+        //prefab.AddComponent<MoveScript>();
 
         // Setting position
         Camera cam = Camera.main;
