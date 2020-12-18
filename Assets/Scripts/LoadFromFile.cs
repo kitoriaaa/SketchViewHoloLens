@@ -29,13 +29,28 @@ public class LoadFromFile : MonoBehaviour
         GameObject prefab = assetLoadRequest.asset as GameObject;
 
         // Add componet test move script
-        prefab.AddComponent<BoundsControl>();
+        prefab.AddComponent<BoxCollider>();
         prefab.AddComponent<ManipulationHandler>();
-        //prefab.AddComponent<MoveScript>();
+        prefab.AddComponent<BoundsControl>();
+
+        //BoundsControl boundsControl = prefab.GetComponent<BoundsControl>();
+        //boundsControl.ScaleHandlesConfig.HandleSize = 0.1f;
+
+        //prefab.GetComponent<BoundsControl>().ScaleHandlesConfig.HandleSize = 0.1f;
+        //boundsControl.RotationHandlesConfig.ShowHandleForX = false;
+
+        //BoundsControl boundsControl = prefab.AddComponent<BoundsControl>();
+
+        //boundsControl.ScaleHandlesConfig.HandleSize = 0.1f;
+        //boundsControl.RotationHandlesConfig.ShowHandleForX = false;
+
 
         // Setting position
         Camera cam = Camera.main;
-        prefab.transform.position = cam.WorldToViewportPoint(new Vector3(0f, 0f, 5f));
+        prefab.transform.position = cam.WorldToViewportPoint(new Vector3(0f, 0f, 2f));
+
+        // Setting scale
+        prefab.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
 
         Instantiate(prefab);
 
