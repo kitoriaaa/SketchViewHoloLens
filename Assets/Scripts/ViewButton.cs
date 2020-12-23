@@ -6,6 +6,8 @@ using Microsoft.MixedReality.Toolkit.UI;
 
 public class ViewButton : MonoBehaviour
 {
+    public GameObject Objects;
+
     public IEnumerator View()
     {
 #if WINDOWS_UWP	
@@ -24,7 +26,16 @@ public class ViewButton : MonoBehaviour
         }
 
         AssetBundleRequest assetLoadRequest = myLoadedAssetBundle.LoadAssetAsync<GameObject>("mesh");
-        yield return assetLoadRequest;
+        yield return assetLoadRequest; // AssetBundleの非同期読み込みが終わるまで中断
+
+
+        // Create parents object
+        Objects = GameObject.Find("objects");
+        if (Objects == null)
+        {
+            Objects = new GameObject("objects");
+        }
+
 
         GameObject prefab = assetLoadRequest.asset as GameObject;
 
@@ -40,7 +51,9 @@ public class ViewButton : MonoBehaviour
         // Setting scale
         prefab.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
 
-        Instantiate(prefab);
+        var obj = Instantiate(prefab);
+        // setting parents
+        obj.transform.parent = Objects.transform;
 
         myLoadedAssetBundle.Unload(false);
     }
@@ -48,6 +61,11 @@ public class ViewButton : MonoBehaviour
     
     public void OnClick()
     {
+        //var obj = GameObject.Find("mesh(Clone)");
+        //if (obj != null)
+        //{
+        //    Destroy(obj);
+        //}
         StartCoroutine(View());
     }
 }
