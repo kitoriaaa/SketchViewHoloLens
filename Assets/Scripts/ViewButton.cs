@@ -46,7 +46,8 @@ public class ViewButton : MonoBehaviour
 
         // Setting position
         Camera cam = Camera.main;
-        prefab.transform.position = cam.WorldToViewportPoint(new Vector3(0f, 0f, 2f));
+        prefab.transform.position = cam.transform.position + cam.transform.forward * 2;
+
 
         // Setting scale
         prefab.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
